@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="image-wrapper">
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/image1.jpg`}
+          alt=""
+        />
+      </div>
+      <div className="image-wrapper">
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/image2.jpg`}
+          alt=""
+        />
+      </div>
+      <div className="image-wrapper">
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/image3.jpg`}
+          alt=""
+        />
+      </div>
+      <div className="image-wrapper">
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/image4.jpg`}
+          alt=""
+        />
+      </div>
+      <div className="image-wrapper">
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/image5.jpg`}
+          alt=""
+        />
+      </div>
     </div>
   );
 }
